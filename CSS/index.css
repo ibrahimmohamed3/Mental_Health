@@ -1,0 +1,35 @@
+/**contact us page**/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:black;
+    
+}
+.containerE{
+    height: 600px;
+    width: 600px;
+    background-color:grey;
+    display: flex;
+    
+}
+.left{
+    height: 00px;
+    width: 400px;
+    background-color:antiquewhite;
+}
+.right{
+    height: 00px;
+    width: 400px;
+    background-color: gray;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
