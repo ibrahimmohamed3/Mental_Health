@@ -1,22 +1,10 @@
 /**contactUs */
-.text-with-line {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+const nameInput = document.getElementById('name-input');
+
+nameInput.addEventListener('input', function() {
+  if (nameInput.value !== '') {
+    nameInput.style.color = 'pink';
+  } else {
+    nameInput.style.color = 'black';
   }
-  
-  .line {
-    width: 100%;
-    height: 2px;
-    background-color: black;
-    margin-top: -5px;
-  }
-  
-  input {
-    margin-top: 5px;
-    border: none;
-    background: none;
-    text-align: center;
-    font-size: inherit;
-  }
-  
+});
