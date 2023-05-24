@@ -1,6 +1,7 @@
 *{
     text-decoration: none;
     font-family: "Open Sans", sans-serif;
+     
     
 }
 .nav-bar{
@@ -8,6 +9,7 @@
     background-color: lightgrey;
     border-radius: 10px;
     box-shadow: 0 0 10px;
+    text-decoration: none;
 }
 .nav-bar li button{
     border-radius: 20px;
@@ -48,7 +50,7 @@ margin: 20px;
     }
     
 hr{
-    width: 90vw;
+    width: 100vw;
     color: grey;
 
 }
@@ -61,29 +63,40 @@ a:hover{
 .header-f{
     text-align: center;
     color: black;
+    cursor: none;
+
 }
 .col3-f{
-    width: 33.33%;
+    width: 25%;
     float: left;
-    background-color: yellow;
 
 }
 .col4-f{
-    width: 33.33%;
+    width: 50%;
     float: left;
-    background-color: rgb(31, 31, 12);
+
 
 }
 .col5-f{
-    width: 33.33%;
+    width: 25%;
     float: left;
-    background-color: blue;
 }
 .active{
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 500px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+
+}
+
+.actives{
+color:black;
+cursor: none;
+}
+#logo-f{
+    float:left;
+    
+    
 }
