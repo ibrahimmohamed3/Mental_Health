@@ -1,0 +1,52 @@
+.missionp img{
+    border-radius: 45%;
+
+}
+.missionp{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.leftp{
+    display: grid;
+    grid-template-columns: auto auto;
+
+
+
+}
+.leftp div{
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: rgb(202, 195, 195);
+    border-radius: 5px;
+    box-shadow: 5px 5px rgb(187, 182, 182);
+}
+.leftp img:hover{
+    cursor: pointer;
+}
+
+#titlep{
+    margin-left: 20px;
+    font-size: 3.0em;
+}
+.sectionp h3{
+    font-size: 2.0em;
+
+}
+.leftp button{
+    background: rgba(221, 213, 210, 0.87);
+    padding:10px 15px;
+    border-radius:5px;
+    font-weight: bold;
+    font-size: 0.9em;
+    border: 0.5px solid black;
+  
+}
+.leftp button:hover{
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 5px 5px rgb(187, 182, 182);
+}
+
+
+
+
