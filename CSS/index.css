@@ -37,6 +37,19 @@ body{
     justify-content: center;
     position: relative;
 }
+.one{
+    margin-bottom: 130px;
+}
+.two{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.two .material-symbols-outlined {
+    display: inline-block;
+    vertical-align: middle; 
+}
 
 .material-symbols-outlined {
   font-variation-settings:
@@ -67,19 +80,29 @@ body{
     background: none;
     font-size: 30px;
   }
+  .response{
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 530px;
+    position: absolute;
+    margin-left: 160px;
+    bottom: 20px;
+
+  }
   
-button,#send{
+/* button,#send{
     position: absolute;
     bottom: 20px;
     align-self: center;
-    margin-left: 60px;
+    margin-left: 80px;
     
 
-}
+} */
 .webicons {
     display: flex;
-    justify-content: center; /* Align items horizontally at the center */
-    align-items: center; /* Align items vertically at the center */
+    justify-content: center; 
+    align-items: flex-end; 
+    margin-top: 320px;
 }
 
 .webicons ul {
@@ -88,11 +111,11 @@ button,#send{
 }
 
 .webicons ul li {
-    margin-right: 10px; /* Add some spacing between icons */
+    margin-right: 10px; 
 }
 
 .webicons ul li img {
-    max-width: 100%; /* Make sure the images don't exceed their container's width */
+    max-width: 100%; 
 }
 #whatsapp{
     height: 30px;
