@@ -1,3 +1,29 @@
 *{
-    background-color: rgb(15, 15, 15);
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;;
 }
+.nav-bar{
+    background-color: lightblue;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+.row1-f{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    }
+li{
+display: inline-block;
+list-style: none;
+    }
+    li a{
+        color: black;
+        font-size: 18px;
+        font-weight: bold;
+        margin-right: 25px;
+    }
