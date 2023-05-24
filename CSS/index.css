@@ -1,22 +1,29 @@
 *{
     text-decoration: none;
-    background: linear-gradient(navy 30%, );
+    font-family: "Open Sans", sans-serif;
     
 }
 .nav-bar{
-    font-family: "Open Sans", sans-serif;
-    background-color: grey;
+    
+    background-color: lightgrey;
     border-radius: 10px;
-
+    box-shadow: 0 0 10px;
 }
+.nav-bar li button{
+    border-radius: 20px;
+    border: none;
+    padding: 5px 15px;
+    background-color:wheat;
+}
+
 .col2-f{
     display: flex;
     align-items: center;
     justify-content: space-between;
     float: right;
    
-    
 }
+
 .logo{
     width: 80px;
     height: 80px;
@@ -30,7 +37,7 @@ margin: 20px;
     li a{
         color: black;
         font-size: 18px;
-        font-weight: bold;
+        font-weight: 400;
     }
     button{
         background-color:wheat;
@@ -39,14 +46,44 @@ margin: 20px;
         width: 120px;
         border: 0px solid none;
     }
-    .nav-bar li button{
-        border-radius: 20px;
-        border: none;
-        padding: 5px 15px;
-        background-color:wheat;
-    }
+    
 hr{
     width: 90vw;
     color: grey;
 
+}
+a:hover{
+    border:1px solid white;
+    border-radius: 5px;
+    background-color: darkgray;
+    transition: .0s;
+}
+.header-f{
+    text-align: center;
+    color: black;
+}
+.col3-f{
+    width: 33.33%;
+    float: left;
+    background-color: yellow;
+
+}
+.col4-f{
+    width: 33.33%;
+    float: left;
+    background-color: rgb(31, 31, 12);
+
+}
+.col5-f{
+    width: 33.33%;
+    float: left;
+    background-color: blue;
+}
+.active{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
