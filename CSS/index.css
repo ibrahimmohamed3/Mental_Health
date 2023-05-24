@@ -1,0 +1,43 @@
+*{
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+
+}
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.who{
+    background-color: grey;
+    width: 100%;
+    height: 300px;
+    font-size: 20px;
+}
+.vision{
+    background-color: white;
+    width: 100%;
+    height: 300px;
+}
+.mission{
+    background-color: white;
+    height: 300px;
+}
+.who1{
+    background-color: grey;
+    height: 300px;
+    font-size: 20px;
+}
+.vision2{
+    background-color: grey;
+    height: 300px;
+}
+.mission3{
+    background-color: white;
+    height: 250px;
+}
+.vision img{
+    width: 100%;
+    height: 300px;
+}
