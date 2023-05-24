@@ -3,16 +3,16 @@
     
 }
 .nav-bar{
-    background-color: lightblue;
-    padding-right: 15px;
-    padding-left: 15px;
-    font-family: "Open Sans", sans-serif;;
+    font-family: "Open Sans", sans-serif;
+    background-color: grey;
 
 }
 .col2-f{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    float: right;
+   
     
 }
 .logo{
@@ -22,21 +22,29 @@
 li{
 display: inline-block;
 list-style: none;
+margin: 20px;
+
     }
     li a{
         color: black;
         font-size: 18px;
         font-weight: bold;
-        margin-right: 25px;
     }
     button{
-        background-color:black;
-        border-radius: 10px;
+        background-color:wheat;
+        border-radius: 20px;
         padding:10px;
-        width: 90px;
+        width: 120px;
+        border: 0px solid none;
     }
-button a{
-    color:wheat;
-    font-weight: bold;
-    font-size: 15px;
+    .nav-bar li button{
+        border-radius: 6px;
+        border: none;
+        padding: 5px 15px;
+        background-color:wheat;
+    }
+hr{
+    width: 90vw;
+    color: grey;
+
 }
