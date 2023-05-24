@@ -3,8 +3,8 @@ const nameInput = document.getElementById('name-input');
 
 nameInput.addEventListener('input', function() {
   if (nameInput.value !== '') {
-    nameInput.style.color = 'pink';
+    nameInput.style.color = 'black-text';
   } else {
-    nameInput.style.color = 'black';
+    nameInput.style.color = 'pink-text';
   }
 });
