@@ -73,7 +73,47 @@ button,#send{
     bottom: 20px;
     align-self: center;
     margin-left: 60px;
+    
+
 }
+.webicons {
+    display: flex;
+    justify-content: center; /* Align items horizontally at the center */
+    align-items: center; /* Align items vertically at the center */
+}
+
+.webicons ul {
+    list-style: none;
+    display: flex;
+}
+
+.webicons ul li {
+    margin-right: 10px; /* Add some spacing between icons */
+}
+
+.webicons ul li img {
+    max-width: 100%; /* Make sure the images don't exceed their container's width */
+}
+#whatsapp{
+    height: 30px;
+    width: 30px;
+}
+#facebook{
+    height: 30px;
+    width: 30px;
+}
+#ig{
+    height: 30px;
+    width: 30px;
+}
+#twitter{
+    height: 30px;
+    width: 30px;
+}
+.pink-text {
+    color: pink;
+  }
+  
 /* CSS Reset */
 /* * {
     margin: 0;
