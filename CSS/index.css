@@ -1,3 +1,195 @@
+ ft-contact
+*contact us page*
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.containerback{
+    background-color:black;
+    justify-content: center;
+    min-height: 100vh;
+    display: flex;    
+}
+.containerE{
+    height: 800px;
+    width: 1000px;
+    background-color:antiquewhite;
+    margin: 1px;
+    justify-content: space-around;
+    align-self: center;
+    padding: 20px;
+    display: flex;
+    border-radius: 10px;
+
+
+}
+
+.left{
+    height: 600px;
+    width: 350px;
+    background-color:antiquewhite;
+}
+.right{
+    height: 750px;
+    width: 450px;
+    background-color: gray;
+    margin-top: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    position: relative;
+}
+.one{
+    margin-bottom: 130px;
+    color: black;
+}
+#after{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300px;
+}
+.two{
+    margin-top: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    color: black;
+    justify-content: space-between;
+}
+.two .material-symbols-outlined {
+    display: inline-block;
+    vertical-align: middle; 
+}
+.three{
+    padding: 2px;
+    height: 50px;
+    width: 290px;
+    border-radius: 10px;
+}
+.four{
+    padding: 2px;
+    height: 50px;
+    width: 290px;
+    border-radius: 10px;
+}
+.five{
+    padding: 2px;
+    height: 50px;
+    width: 290px;
+    border-radius: 10px;
+}
+.three:hover,
+.four:hover,
+.five:hover {
+    background-color: lightgray;
+}
+.message .material-symbols-outlined {
+    display: inline-block;
+    vertical-align: middle; 
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 900px,
+  'GRAD' 0,
+  'opsz' 48
+}
+.text-with-line {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+  
+  .line {
+    width: 100%;
+    height: 2px;
+    background-color:black;
+    margin-top: 5px;
+  }
+  /* h2{
+    color: rgb(247, 139, 157);
+    text-size-adjust: 90px;
+  } */
+  input{
+    margin-top: 5px;
+    border: none;
+    background: none;
+    font-size: 30px;
+    border-color: black;
+  }
+  .response{
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 530px;
+    position: absolute;
+    margin-left: 10px;
+    bottom: 20px;
+    background-color: black;
+    border-radius: 10px;
+
+  }
+  
+  button{
+    border-radius: 10px;
+    background-color: gray;
+    border-color: black;
+  }
+  button :hover{
+    background-color:lightgray;
+  }
+  
+/* button,#send{
+    position: absolute;
+    bottom: 20px;
+    align-self: center;
+    margin-left: 80px;
+    
+
+} */
+.webicons {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-end; 
+    margin-top: 285px;
+    background-color:black;
+    border-radius: 10px;
+    border: 5px rgb(247, 139, 157);
+}
+
+.webicons ul {
+    list-style: none;
+    display: flex;
+}
+
+.webicons ul li {
+    margin-right: 10px; 
+}
+
+.webicons ul li img {
+    max-width: 100%; 
+}
+#whatsapp{
+    height: 30px;
+    width: 30px;
+}
+#facebook{
+    height: 30px;
+    width: 30px;
+}
+#ig{
+    height: 30px;
+    width: 30px;
+}
+#twitter{
+    height: 30px;
+    width: 30px;
+}
+.pink-text {
+    color: pink;
+  }
+  
+
+
+  
 /*About*/
 *{
     background-color: rgb(245, 245, 248);
@@ -55,4 +247,4 @@ h1{
     text-align: center;
 }
 
-
+ ft-development
