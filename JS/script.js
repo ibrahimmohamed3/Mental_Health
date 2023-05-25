@@ -26,7 +26,7 @@ messageInput.addEventListener('input', function() {
   }
 });
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('click', function() {
     var sendButton = document.getElementById('send-button');
     var nameInput = document.getElementById('name-input');
     var emailInput = document.getElementById('email-input');
