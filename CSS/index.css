@@ -1,3 +1,129 @@
+.missionp img{
+    border-radius: 45%;
+
+}
+.missionp h3{
+    font-size: 20px;
+}
+.textp{
+    margin-bottom: 15px;
+    line-height: 1.5;
+    text-align: center;
+   
+}
+
+#titlep{
+    text-align: center;
+}
+
+
+
+.leftp{
+    display: flex;
+    justify-content: space-between;
+}
+.leftp div{
+    margin: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgb(187, 182, 182);
+    background-color: rgb(226, 219, 219);
+
+}
+.leftp img:hover{
+    cursor: pointer;
+}
+
+#titlep{
+    margin-left: 20px;
+    font-size: 3.0em;
+}
+.sectionp h3{
+    font-size: 2.0em;
+
+}
+
+
+.leftp button{
+    background: rgba(221, 213, 210, 0.87);
+    padding:10px 15px;
+    border-radius:5px;
+    font-weight: bold;
+    font-size: 0.9em;
+    border: 1px solid black;  
+}
+.leftp button:hover{
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 5px 5px rgb(187, 182, 182);
+}
+
+ .learnmorep{
+      margin: 20px;
+      margin-top: 20px;
+      border-radius: 5px;
+      box-shadow: 2px 2px 2px 2px rgb(187, 182, 182);
+ }
+
+ .motivationp{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ }
+ .motivationlist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
+
+ .motivationlist li {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.5;
+    font-style: italic;
+    text-align: center;
+   
+  }
+  .emoji{
+    font-size: 3rem;
+
+  }
+  
+
+
+
+ @media (max-width: 768px) {
+    .leftp {
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+    
+    .leftp div {
+      margin: 20px auto;
+      margin-left: 1.0em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .sectionp h3 {
+      font-size: 1.5em;
+    }
+  }
+  @media(max-width: 360px){
+    .leftp {
+        display: grid;
+        grid-template-columns: auto auto;
+      }
+
+  }
+  
+  
+
  ft-contact
 *contact us page*
 *{
