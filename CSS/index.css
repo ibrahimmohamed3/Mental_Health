@@ -1,20 +1,13 @@
-*{
+/* homepage */
+.bodyf{
     text-decoration: none;
     font-family: "Open Sans", sans-serif;
      cursor: default;
 }
-body{
+.back-groundf{
     background-image: url(../images/background.jpg);
     background-size: cover;
 }
-/* .background-image{
-    background-size: contain;
-    width: 100vw;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-} */
 .nav-bar{
     text-decoration: none;
     width: 100%;
@@ -227,6 +220,7 @@ color:black;
       align-items: flex-start;
     }
 }  
+/* end of homepage */
 .missionp img{
     border-radius: 45%;
 
