@@ -1,3 +1,232 @@
+*{
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+     cursor: default;
+}
+body{
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+}
+/* .background-image{
+    background-size: contain;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+} */
+.nav-bar{
+    text-decoration: none;
+    width: 100%;
+    
+}
+.nav-bar li button{
+    border-radius: 20px;
+    border: none;
+    padding: 5px 15px;
+    color: white;
+    background-color:wheat;
+    
+}
+
+.col2-f{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    float: right;
+   
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    margin-left: -150px;
+    }
+li{
+display: inline-block;
+list-style: none;
+margin: 20px;
+
+    }
+    li a{
+        color: black;
+        font-size: 18px;
+        font-weight: 500;
+    }
+  
+    .btnf{
+        border-radius: 20px;
+        padding:10px;
+        width: 120px;
+        border: 0px solid none;
+        cursor: pointer;
+        
+    }
+    
+.linee{
+    width: 90vw;
+    color: grey;
+
+}
+.linef{
+    width: 225px}
+a:hover{
+    border:1px solid white;
+    border-radius: 5px;
+    background-color: palevioletred;
+    transition: .0s;
+    cursor: pointer;
+}
+.header-f{
+    color: black;  
+
+}
+.col3-f{
+    width: 33%;
+    float: left;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 35px;
+}
+.col4-f{
+    width: 600px;
+    float: left;
+    margin-top:200px ;
+    margin-left:-600px ;
+}
+
+.col5-f{
+    width: 25%;
+    float: left;
+    font-size: 35px;
+    color: black;
+    margin-top: -40px;
+    margin-left: 300px;
+}
+.active{
+    width: 300px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+.actives{
+color:black;
+}
+#logo-f{
+    float:left;
+    margin-left: 100px;
+    color: #141E30;
+}
+
+         
+.readmore {
+    background-image: linear-gradient(to right, #141E30 0%, #243B55  51%, #141E30  100%);
+    margin: 10px;
+    padding: 15px 45px 20px 20px;
+    text-align: right;
+    text-transform: uppercase;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    margin-left: 200px;
+    cursor: pointer;
+
+  }
+
+  .readmore:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+  }
+.cute-par{
+    text-align: center;
+}
+.footer-f {
+    background-color: #141E30;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    margin-bottom:-500px;
+    margin-left: -25px;
+    
+  }
+  
+  
+  .container-f {
+    min-height: 100%;
+    position: relative;
+  }
+  
+  .rowf {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-colf {
+    width: 25%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: black;
+  }
+  
+  .footer-colf h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-colf ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-colf ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-colf ul li a {
+    color:black;
+    text-decoration: none;
+        align-items: flex-start;
+
+  }
+  
+  .socials-f a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-right: 5px;
+    text-align: center;
+    line-height: 30px;
+    color: #777;
+  }
+  
+  .footer-colf p {
+    line-height: 1.5;
+  }
+  
+  .footer-colf h4,
+  .footer-colf p {
+    margin-bottom: 10px;
+  }
+  @media (max-width: 768px) {
+    .row1-f {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+}  
 .missionp img{
     border-radius: 45%;
 
