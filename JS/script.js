@@ -26,20 +26,28 @@ messageInput.addEventListener('input', function() {
   }
 });
 
-document.getElementById('send-button').addEventListener('click', function() {
-  var name = nameInput.value;
-  var email = emailInput.value;
-  var message = messageInput.value;
-
-  if (name !== '' && isValidEmail(email) && message !== '') {
-    alert("Message sent successfully!");
-  } else {
-    alert("Please fill in all the fields correctly.");
-  }
-});
-
-function isValidEmail(email) {
-  // Email validation regular expression
-  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  return emailRegex.test(email);
-}
+document.addEventListener('DOMContentLoaded', function() {
+    var sendButton = document.getElementById('send-button');
+    var nameInput = document.getElementById('name-input');
+    var emailInput = document.getElementById('email-input');
+    var messageInput = document.getElementById('message-input');
+  
+    sendButton.addEventListener('click', function() {
+      var name = nameInput.value;
+      var email = emailInput.value;
+      var message = messageInput.value;
+  
+      if (name !== '' && isValidEmail(email) && message !== '') {
+        alert("Message sent successfully!");
+      } else {
+        alert("Please fill in all the fields correctly.");
+      }
+    });
+  
+    function isValidEmail(email) {
+      // Email validation regular expression
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      return emailRegex.test(email);
+    }
+  });
+  
