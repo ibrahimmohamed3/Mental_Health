@@ -51,12 +51,10 @@ p{
     padding: 24px;
     background: rgb(202, 195, 195);
 }
-strong{
-    text-align: center;
-}
 h1{
     text-align: center;
 }
-@media screen {
-    
+strong{
+    text-align: right;
 }
+
