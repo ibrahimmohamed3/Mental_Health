@@ -13,6 +13,6 @@ CSS - It was used to do styling in the html structure.
 JAVASCRIPT - It was used to add functionality to the web pages.
 
 ## LICENCE
-Copyright (c) [2023] [ibrahim Mohmed]
+Copyright (c) [2023] [Ibrahim Mohmed]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation file to deal with the Software without limitation the rights to use , copy, modify, merge, piublish, disrtibute, sublicense, and or sell copies of the website is furnished to do so, subject 
