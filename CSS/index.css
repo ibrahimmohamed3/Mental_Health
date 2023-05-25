@@ -221,9 +221,9 @@ color:black;
   .footer-colf p {
     margin-bottom: 10px;
   }
-  /* @media(max-width: 480px){
-    .col4-f{
-        width: 100%;
+  @media (max-width: 768px) {
+    .row1-f {
+      flex-direction: column;
+      align-items: flex-start;
     }
-  }
-   */
+}  
