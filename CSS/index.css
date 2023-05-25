@@ -3,18 +3,29 @@
     font-family: "Open Sans", sans-serif;
      cursor: default;
 }
+body{
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+}
+/* .background-image{
+    background-size: contain;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+} */
 .nav-bar{
-    
-    background-color: lightgrey;
-    border-radius: 10px;
-    box-shadow: 0 0 10px;
     text-decoration: none;
+    
 }
 .nav-bar li button{
     border-radius: 20px;
     border: none;
     padding: 5px 15px;
+    color: white;
     background-color:wheat;
+    
 }
 
 .col2-f{
@@ -39,30 +50,34 @@ margin: 20px;
     li a{
         color: black;
         font-size: 18px;
-        font-weight: 400;
+        font-weight: 500;
     }
-    button{
-        background-color:wheat;
+  
+    .btnf{
         border-radius: 20px;
         padding:10px;
         width: 120px;
         border: 0px solid none;
+        cursor: pointer;
+        
     }
     
-hr{
+.linee{
     width: 90vw;
     color: grey;
 
 }
+.linef{
+    width: 225px}
 a:hover{
     border:1px solid white;
     border-radius: 5px;
-    background-color: darkgray;
+    background-color: palevioletred;
     transition: .0s;
+    cursor: pointer;
 }
 .header-f{
-    text-align: center;
-    color: black;
+    color: black;  
 
 }
 .col3-f{
@@ -70,19 +85,22 @@ a:hover{
     float: left;
     margin-left: 50px;
     text-align: center;
-    font-size: 25px;
+    font-size: 35px;
 }
 .col4-f{
-    width: 33%;
+    width: 600px;
     float: left;
-
-
+    margin-top:200px ;
+    margin-left:-600px ;
 }
+
 .col5-f{
     width: 25%;
     float: left;
-    font-size: 25px;
+    font-size: 35px;
     color: black;
+    margin-top: -40px;
+    margin-left: 300px;
 }
 .active{
     width: 300px;
@@ -100,6 +118,7 @@ color:black;
 #logo-f{
     float:left;
     margin-left: 100px;
+    color: #141E30;
 }
 
          
@@ -107,7 +126,7 @@ color:black;
     background-image: linear-gradient(to right, #141E30 0%, #243B55  51%, #141E30  100%);
     margin: 10px;
     padding: 15px 45px 20px 20px;
-    text-align: center;
+    text-align: right;
     text-transform: uppercase;
     background-size: 200% auto;
     color: white;            
@@ -115,12 +134,21 @@ color:black;
     border-radius: 10px;
     display: block;
     margin-left: 200px;
+    cursor: pointer;
 
   }
 
   .readmore:hover {
-    background-position: right center; /* change the direction of the change here */
+    background-position: right center; 
     color: #fff;
     text-decoration: none;
   }
- 
+.cute-par{
+    text-align: center;
+}
+@media(max-width:1024px){
+    body{
+        
+    }
+}
+
