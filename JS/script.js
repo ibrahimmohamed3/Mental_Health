@@ -1,22 +1,23 @@
 /**contactUs */
 const nameInput = document.getElementById('name-input');
+const emailInput = document.getElementById('email-input');
+const messageInput = document.getElementById('message-input');
 
 nameInput.addEventListener('input', function() {
   if (nameInput.value !== '') {
-    nameInput.style.color = 'pink-text';
+    nameInput.style.backgroundColor = 'pink';
   } else {
-    nameInput.style.color = 'black-text';
+    nameInput.style.backgroundColor = 'transparent';
   }
 });
 
-
 document.getElementById('send-button').addEventListener('click', function() {
-    // Retrieve input values
-    var name = document.getElementById('name-input').value;
-    var email = document.getElementById('email-input').value;
-    var message = document.getElementById('message-input').value;
+  // Retrieve input values
+  var name = nameInput.value;
+  var email = emailInput.value;
+  var message = messageInput.value;
 
-    alert('Message sent successfully!');
-  });
+  alert("Message sent successfully!");
+});
 
 
